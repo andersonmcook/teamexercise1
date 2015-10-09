@@ -1,0 +1,16 @@
+.team-member {
+    width: 75%;
+    padding: 20px;
+    background: darkgrey;
+    
+}
+
+.team-member img {
+    margin: 1%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    max-width: 10%;
+    max-height: 10%
+
+}
