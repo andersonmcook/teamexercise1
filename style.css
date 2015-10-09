@@ -1,0 +1,57 @@
+body {
+	background: darkgray;
+	font-family: sans-serif;
+}
+
+header {
+	background: #202020;
+	padding: 1%;
+	margin: 1%;;
+}
+
+h1 {
+	color: white;
+	font-size: 400%;
+	letter-spacing: .5em;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	color: white;
+	margin: .25%;
+	font-size: 150%;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: silver;
+}
+
+.team-member {
+	width: 75%;
+	background: gray;
+	padding: 1%;
+	margin: 1%;
+}
+
+.profile-pic {
+	width: 25%;
+	margin: 1%;
+}
+
+.profile-name {
+	float: right;
+}
+
+.profile-text {
+
+}
