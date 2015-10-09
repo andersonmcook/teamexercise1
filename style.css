@@ -2,7 +2,7 @@
     width: 75%;
     padding: 20px;
     background: darkgrey;
-    
+    margin: .25% auto;  
 }
 
 .team-member img {
@@ -12,5 +12,4 @@
     background-position: center;
     max-width: 10%;
     max-height: 10%
-
 }
