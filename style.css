@@ -30,10 +30,11 @@ nav li {
 
 nav a {
 	text-decoration: none;
+	color: silver;
 }
 
 nav a:hover {
-	color: red;
+	color: white;
 }
 
 
@@ -47,7 +48,9 @@ nav a:hover {
 	text-transform: uppercase;
 }
 
-.profile-text {}
+.profile-text {
+
+}
 
 .team-member {
     width: 75%;
@@ -101,9 +104,7 @@ footer > p {
 	width: 80%;
 }
 
-.nss-text {
-	display: inine-block;
-}
+
 .footer-image {
 	max-width: 4%;
 	max-height: 4%;
