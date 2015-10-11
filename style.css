@@ -1,6 +1,6 @@
 body {
 	font-family: sans-serif;
-	background: #000 url("http://i.imgur.com/1VB0xo0.jpg") 0 0;
+	background: #000 url("img/bg.jpg") 0 0;
 }
 
 header {
@@ -85,15 +85,14 @@ nav a:hover {
     background-size: cover;
     background-position: center;*/
     width: 20%;
-    height: 20%
+    height: 20%;
 }
-
-
+/*
 .img-pic {
 	display: inline-block;
 	float: left;
 }
-
+*/
 .profile-name{
 	display: inline;
 	float: right;
@@ -102,11 +101,15 @@ nav a:hover {
 .footer {
 	border: 2px solid black;
 	padding: 10px 5px 0 5px;
-	background-color: orange;
+	background-color: rgba(255, 153, 0, .9);
 }
 
 footer > p {
 	padding: 0 0 0 10px;
+}
+
+footer a {
+	color: white;
 }
 
 #nss-info {
@@ -114,6 +117,10 @@ footer > p {
 	width: 80%;
 }
 
+/*
+.nss-text {
+	display: inline-block;
+}     */
 
 .footer-image {
 	max-width: 4%;
