@@ -1,10 +1,10 @@
 body {
-	background: white;
 	font-family: sans-serif;
+	background: #000 url("http://i.imgur.com/1VB0xo0.jpg") 0 0;
 }
 
 header {
-	background: #202020;
+	background: rgba(32, 32, 32, .75);
 	padding: 1%;
 	margin: 1%;;
 }
@@ -30,10 +30,11 @@ nav li {
 
 nav a {
 	text-decoration: none;
+	color: silver;
 }
 
 nav a:hover {
-	color: red;
+	color: white;
 }
 
 
@@ -45,15 +46,27 @@ nav a:hover {
 .profile-name {
 	letter-spacing: .75em;
 	text-transform: uppercase;
+	text-align: center;
+	margin: 1%;
 }
 
-.profile-text {}
+.profile-text {
+	text-align: justify;
+	margin: 1% auto;
+	width: 75%;
+}
 
 .team-member {
-    width: 75%;
+    width: 50%;
     padding: 1em;
-    background: darkgrey;
+    background: rgba(169, 169, 169, .75);
     margin: 1% auto;
+    display: flex;
+}
+
+.team-member div {
+	display: flex;
+	flex-direction: column;
 }
 
 .team-member a {
@@ -68,11 +81,11 @@ nav a:hover {
 
 .team-member img {
     margin: 1%;
-    float: left;
+    /*float: left;
     background-size: cover;
-    background-position: center;
-    max-width: 10%;
-    max-height: 10%
+    background-position: center;*/
+    width: 20%;
+    height: 20%
 }
 
 
@@ -100,10 +113,14 @@ footer > p {
 	padding: 0 5px 10px 5px;
 	width: 80%;
 }
+<<<<<<< HEAD
 /*
 .nss-text {
 	display: inline-block;
 }     */
+=======
+
+>>>>>>> 4abd2467effd156d34be327df065eae40e5a5dd9
 
 .footer-image {
 	max-width: 4%;
