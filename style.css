@@ -100,32 +100,26 @@ nav a:hover {
 }
 
 .footer {
+	font-size: 75%;
 	border: 2px solid black;
-	padding: 10px 5px 0 5px;
+	margin: 1%;
+	padding: 10px 5px 0 60px;
 	background-color: orange;
 }
 
-footer > p {
-	padding: 0 0 0 10px;
+.footer-text {
+	padding: 0 0 0 35px;
 }
 
 #nss-info {
 	padding: 0 5px 10px 5px;
 	width: 80%;
 }
-<<<<<<< HEAD
-/*
-.nss-text {
-	display: inline-block;
-}     */
-=======
-
->>>>>>> 4abd2467effd156d34be327df065eae40e5a5dd9
 
 .footer-image {
-	max-width: 4%;
-	max-height: 4%;
+	width: 2%;
+	height: 2%;
 	display: inline-block;
 	float: left;
-	padding: 0 10px 0 0;
+	padding: 0 10px 0 0; 
 }
