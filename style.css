@@ -37,12 +37,6 @@ nav a:hover {
 	color: white;
 }
 
-
-/*.profile-pic {
-	width: 25%;
-	margin: 1%;
-}*/
-
 .profile-name {
 	letter-spacing: .75em;
 	text-transform: uppercase;
@@ -81,18 +75,10 @@ nav a:hover {
 
 .team-member img {
     margin: 1%;
-    /*float: left;
-    background-size: cover;
-    background-position: center;*/
     width: 20%;
     height: 20%;
 }
-/*
-.img-pic {
-	display: inline-block;
-	float: left;
-}
-*/
+
 .profile-name{
 	display: inline;
 	float: right;
@@ -119,11 +105,6 @@ footer a {
 	padding: 0 5px 10px 5px;
 	width: 100%;
 }
-
-/*
-.nss-text {
-	display: inline-block;
-}     */
 
 .footer-image {
 	max-width: 4%;
